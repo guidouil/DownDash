@@ -224,6 +224,7 @@ class GameScene extends Phaser.Scene {
   getRandomEmoji() {
     // Liste d'emojis dangereux/obstacles
     const emojis = [
+      "💩",
       "💣",
       "⚡️",
       "🔥",
@@ -233,15 +234,18 @@ class GameScene extends Phaser.Scene {
       "🐍",
       "🦈",
       "🐊",
-      "👻",
       "💀",
       "👾",
       "🤖",
-      "🎃",
       "⚔️",
       "🗡️",
       "💥",
       "🍌",
+      "🎄",
+      "🎅",
+      "🎁",
+      "❄️",
+      "⛄️",
     ];
     return emojis[Phaser.Math.Between(0, emojis.length - 1)];
   }
