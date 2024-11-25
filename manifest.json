@@ -2,7 +2,7 @@
   "name": "DownDash",
   "short_name": "DownDash",
   "description": "DownDash is a game where you have to dodge obstacles coming down from the sky.",
-  "start_url": "./",
+  "start_url": "https://guidouil.github.io/DownDash/",
   "display": "standalone",
   "orientation": "portrait",
   "icons": [
