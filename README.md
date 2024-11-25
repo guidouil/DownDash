@@ -1,6 +1,6 @@
 # DownDash
 
-Jeu de chute libre en 2D.
+Jeu de chute libre en 2D fait avec Phaser 3.
 
 ## Installation
 
@@ -8,7 +8,7 @@ Jeu de chute libre en 2D.
 2. lancer un serveur local
 
 ```bash
-python -m http.server
+python3 -m http.server
 ```
 
 3. Ouvrir le navigateur et naviguer à l'adresse <http://localhost:8000>

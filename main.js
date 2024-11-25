@@ -366,7 +366,7 @@ class GameScene extends Phaser.Scene {
       .setDepth(2);
 
     this.add
-      .text(width / 2, height / 1.6 + 50, "Score: " + Math.floor(this.score), {
+      .text(width / 2, height / 1.7 + 50, "Score: " + Math.floor(this.score), {
         fontSize: "24px",
         fill: "#fff",
       })
@@ -375,7 +375,7 @@ class GameScene extends Phaser.Scene {
       .setDepth(2);
 
     this.add
-      .text(width / 2, height / 1.6 + 100, "High Score: " + this.highScore, {
+      .text(width / 2, height / 1.7 + 100, "High Score: " + this.highScore, {
         fontSize: "26px",
         fill: "gold",
       })
@@ -385,12 +385,12 @@ class GameScene extends Phaser.Scene {
 
     // Bouton Restart
     const restartButton = this.add
-      .rectangle(width / 2, height / 1.6 + 150, 200, 50, 0x00ff00)
+      .rectangle(width / 2, height / 1.7 + 150, 200, 50, 0x00ff00)
       .setScrollFactor(0)
       .setDepth(2);
 
     const restartText = this.add
-      .text(width / 2, height / 1.6 + 150, "RESTART", {
+      .text(width / 2, height / 1.7 + 150, "RESTART", {
         fontSize: "24px",
         fill: "#000",
         fontWeight: "bold",
